@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  pointer-events: auto;
+  cursor: pointer;
+  margin: 20px 45px 20px 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 5vh;
+}
+
+.root {
+  background-color: "#F0FCFF";
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.leaflet-container {
+  height: calc(100% + 50px);
+  min-height: 300px;
+}
+
+.leaflet-popup-content {
+  min-width: 300px;
+}
+.leaflet-popup-content p {
+  margin: 0;
+}
+
+.badge {
+  margin: 0px;
+  top: auto;
+  right: 30px;
+  bottom: 48px;
+  left: auto;
+  position: fixed;
+}
+
+.badge::after {
+  content:attr(value);
+  color: white;
+  font-size: 1.2em;
+  width: 1.5em;
+  line-height: 1em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  background: #48656b;
+  border-radius:50%;
+  position:relative;
+  left:-8px;
+  top:-20px;
+  opacity:0.9;
+  }
+
+
+.photo-viewer-container {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.photo {
+  width: 100% !important;
+  height: 100% !important;
+}
