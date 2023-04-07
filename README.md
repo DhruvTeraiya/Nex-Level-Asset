@@ -46,31 +46,6 @@ Password: password1
 - [Redis](https://redis.io/) (data caching)
 - [Swagger UI](https://swagger.io/tools/swagger-ui/) (API documentation)
   
-### Screenshots
-##### Login
-![Login screen](https://206e126d-9f30-4cd7-90d7-80d8d2207339.s3.us-east-2.amazonaws.com/images/screenshots/team24/login.webp)
-##### User Profile
-![User profile](https://206e126d-9f30-4cd7-90d7-80d8d2207339.s3.us-east-2.amazonaws.com/images/screenshots/team24/profile.webp)
-##### Dashboard (sidebar open)
-![Dashboard with sidebar open](https://206e126d-9f30-4cd7-90d7-80d8d2207339.s3.us-east-2.amazonaws.com/images/screenshots/team24/dashwsidebar.webp)
-##### Global Search
-![Dashboard page with search bar and results](https://206e126d-9f30-4cd7-90d7-80d8d2207339.s3.us-east-2.amazonaws.com/images/screenshots/team24/searchpopup.webp)
-##### Search Details
-![Search details page with table of search results](https://206e126d-9f30-4cd7-90d7-80d8d2207339.s3.us-east-2.amazonaws.com/images/screenshots/team24/searchdetails.webp)
-##### All Assets (list view)
-![Table with list of all assets in the system](https://206e126d-9f30-4cd7-90d7-80d8d2207339.s3.us-east-2.amazonaws.com/images/screenshots/team24/allassets.webp)
-##### All Assets (map view)
-![A map of assets / markers based on their locations alongside a table with list of all assets in the viewport of the map](https://206e126d-9f30-4cd7-90d7-80d8d2207339.s3.us-east-2.amazonaws.com/images/screenshots/team24/mapview.webp)
-##### Asset Details
-![Page displaying properties of a single asset in a clean way with a timeline of its associated events](https://206e126d-9f30-4cd7-90d7-80d8d2207339.s3.us-east-2.amazonaws.com/images/screenshots/team24/assetdetails.webp)
-##### Assembly Manager
-![Assembly manager and creator tool as a table of assets and a floating "shopping cart"-style widget](https://206e126d-9f30-4cd7-90d7-80d8d2207339.s3.us-east-2.amazonaws.com/images/screenshots/team24/assembly.webp)
-##### All Shipments
-![Table with list of all shipments in the system, organized by their status](https://206e126d-9f30-4cd7-90d7-80d8d2207339.s3.us-east-2.amazonaws.com/images/screenshots/team24/allshipments.webp)
-##### Shipment Details
-![Page displaying properties of a single shipment in a clean way with a map of the shipment's route and a table of the items contained in the shipment](https://206e126d-9f30-4cd7-90d7-80d8d2207339.s3.us-east-2.amazonaws.com/images/screenshots/team24/shipmentdetails.webp)
-##### Shipment Creator (Submission Dialog)
-![Shipment creator tool with a submission dialog listing the source and destination locations of the shipments and possible overrides on the location properties](https://206e126d-9f30-4cd7-90d7-80d8d2207339.s3.us-east-2.amazonaws.com/images/screenshots/team24/submitshipment.webp)
 
 ### Installation
 Further details may be found in the `frontend` folder [README.md](https://github.com/sstawiarski/asset-management-dashboard/blob/main/frontend/README.md) and the `backend` folder [README.md](https://github.com/sstawiarski/asset-management-dashboard/blob/main/backend/README.md).
@@ -134,15 +109,3 @@ Both the frontend and the backend expect `.env` files with necessary values to r
 Frontend components are documented throughout the project using inline comments, [JSDoc](https://jsdoc.app/), and [prop-types](https://www.npmjs.com/package/prop-types).
 ##### Backend
 The backend server API documentation is written in OpenAPI and hosted at `/api-docs` of the server URL using [SwaggerUI](https://swagger.io/tools/swagger-ui/).
-
-### Contributors
-- [Charles Dawkins](https://github.com/cwdawki1)
-- [Eric Fritts](https://github.com/efritts)
-- [Maija Kingston](https://github.com/makingst)
-- [Shawn Stawiarski](https://github.com/sstawiarski)
-- [Gabriel Udoette](https://github.com/GUDOETTE)
-
-### License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-Full license available [here](https://github.com/sstawiarski/asset-management-dashboard/blob/main/LICENSE).
