@@ -3,31 +3,12 @@
 Asset Management Dashboard is a full [MERN](https://www.mongodb.com/mern-stack) stack application for the management of assets and shipments of assets (including all CRUD operations) with a modular structure and centralized dashboard. Formerly known as Product Management Portal.
   
 [![Frontend language](https://img.shields.io/badge/Built%20with-React-blue)](https://reactjs.org/)&nbsp;[![Backend language](https://img.shields.io/badge/Built%20with-Node.js-brightgreen)](https://reactjs.org/)&nbsp;[![Stack](https://img.shields.io/badge/Stack-MERN-yellowgreen)](https://www.mongodb.com/mern-stack)
-
-### Motivation
-This project was developed in collaboration with [Evolution Engineering & Energy Technologies](https://evolutioneng.com) as a central dashboard for the management and tracking of company assets and shipments. The goal was to build a custom application that would help to replace and amalgamate the fragmented, 3rd party management solutions currently in use. Prior to this application, the company did not have a reliable way to track and maintain history, status, rental assignment, or ownership (among other details) of these products.
-### Features
-- **Central dashboard** with global search
-- Listing, filtering, and creation of assets and shipments
-- **Map views** for asset locations and shipment routes
-- Support for **file attachments** to shipments
-- Error-checking and **schema validation** of assemblies
-- "Shopping cart"-style tools for **creating and managing assemblies and shipments**
-
-### Live Demo
-A live demo can be found [here](https://capstone.shawnstawiarski.com).  
   
 You may use the following credentials to log in:
 ```
 Username: jsmith
 Password: password1
 ```
-**Note:** The live demo is hosted on a free [Heroku](https://www.heroku.com/) server which shuts down after 30 minutes of inactivity (and deletes files with it). 
-- You may need to refresh the page multiple times to allow the server to start before login or API calls can go through
-- Some attachments may show up under a shipment's details, but attempting to view them results in a spinner because Heroku deleted the files as temporary
-  - **To test attachment functionality**, upload a new attachment and immediately view it
-
-**Demo video / project overview:** [YouTube](https://youtu.be/ess9Z7cUUzs)
 
 ### Build status
 [![Build Status](https://travis-ci.com/sstawiarski/asset-management-dashboard.svg?branch=main&status=passed)](https://travis-ci.com/github/sstawiarski/asset-management-dashboard)
